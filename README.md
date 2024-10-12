@@ -19,7 +19,7 @@ Finally, the post-processing step translates the outputs from the quantum layer 
 
 ## Problem Statement
 
-With the emergence of Quantum Computing and its potential to tackle complex computations, research on newer domains such as quantum machine learning and quantum optimization are being rigorously conducted with the expectation of developing newer ideas for tackling problems that we have always struggled with. Although quantum machine learning is not as great as its classical counterparts, there is a lot of room for improvement when it comes to innovating within the field. Therefore, the major objective of this project is to develop a quantum circuit that can pave way for future development within the quantum machine learning ecosystem.
+With the emergence of Quantum Computing and its potential to tackle complex computations, research on newer domains such as quantum machine learning and quantum optimization are being rigorously conducted with the expectation of developing newer ideas for tackling problems that we have always struggled with. Although quantum machine learning is not as great as its classical counterparts, there is a lot of room for improvement when it comes to innovating within the field. Therefore, the major agenda of this project is to develop a quantum circuit that can pave way for future development within the quantum machine learning ecosystem.
 
 ## Methodology
 
