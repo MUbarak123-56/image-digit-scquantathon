@@ -15,7 +15,7 @@ The quantum layer is the section of the algorithm where all the training is goin
 
 ![Post-Processing](images/final_layer.png)
 
-Finally, the post-processing step translate the output from the quantum layer into 0 or 1 by working with a fully connected layer to produce a value of 0 or 1 in the last output neuron.
+Finally, the post-processing step translates the outputs from the quantum layer into 0 or 1 by working with a fully connected layer to produce a value of 0 or 1 in the last output neuron.
 
 ## Problem Statement
 
