@@ -47,7 +47,7 @@ The second idea was to utilize a simplistic variational algorithm that can be ea
 
 ![VQA_4_qubits](images/z_feature_map_two_local_4.png)
 
-The Z-Feature Map:
+The Z-Feature Map Data Encoding Mechanism:
 
 ![VQA_4_qubits_z_feature_map](images/z_feature_map_4.png)
 
