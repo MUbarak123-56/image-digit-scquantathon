@@ -73,7 +73,7 @@ This was a great project to dive deep into the intricacies of building a quantum
 
 ## References
 
-- Liu, Bo, et al. "Quantum Convolutional Neural Networks: A Survey." arXiv, 2023, https://arxiv.org/pdf/2304.09224.
+- Senokov, Arsenii, et al. "Quantum Convolutional Neural Networks: A Survey." arXiv, 2023, https://arxiv.org/pdf/2304.09224.
 - Qiskit Community. "Quantum Convolutional Neural Networks." Qiskit Machine Learning Tutorials, https://qiskit-community.github.io/qiskit-machine-learning/tutorials/11_quantum_convolutional_neural_networks.html
 - IBM Quantum. (n.d.). ZFeatureMap. IBM Quantum Documentation. Retrieved October 12, 2024, from https://docs.quantum.ibm.com/api/qiskit/qiskit.circuit.library.ZFeatureMap
 - IBM Quantum. (n.d.). TwoLocal. IBM Quantum Documentation. Retrieved October 12, 2024, from https://docs.quantum.ibm.com/api/qiskit/qiskit.circuit.library.TwoLocal
