@@ -19,7 +19,15 @@ Finally, the post-processing step translate the output from the quantum layer in
 
 ## Problem Statement
 
-With the emergence of Quantum Computing and its potential to tackle complex computations, research on newer domains such as quantum machine learning and quantum optimization are being done rigorously with the expectation of developing different mechanisms for tackling problems that we have always struggled with. The main problem of this experiment is to see if a quantum algorithm that can 
+With the emergence of Quantum Computing and its potential to tackle complex computations, research on newer domains such as quantum machine learning and quantum optimization are being rigorously conducted with the expectation of developing newer ideas for tackling problems that we have always struggled with. Although quantum machine learning is not as great as its classical counterparts, there is a lot of room for improvement when it comes to innovating within the field. Therefore, the major objective of this project is to develop a quantum circuit that can pave way for future development within the quantum machine learning ecosystem.
+
+## Methodology
+
+The methodology was to develop a quantum layer that can act as a component within the neural network. Our objective was three-fold: simplicity, training speed and reproduciboility. This quantum layer will be simple while being able to yield reproducible results and training data within a reasonable period of time. Therefore, we began by transforming the initial circuit into a simpler circuit by replacing the Angle Encoder with the ZFeatureMap, a simpler data encoding mechanism. We also used a new method for convolution by drawing inspiration from Qiskit's [Tutorial](https://qiskit-community.github.io/qiskit-machine-learning/tutorials/11_quantum_convolutional_neural_networks.html) on Quantum Convolution Neural Network.
+
+![First Attempt](images/qcnn_z_feature_map.png)
+
+After struggling to get a stabilized result with the algorithm above, it was crucial to explore simpler methods. Moreover, the algorithm above took a long period to train (about 200 seconds per epoch). As this is a 24-hour hackathon
 
 ## Solution
 
