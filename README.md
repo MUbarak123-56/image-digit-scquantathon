@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project was conducted as part of the IonQ Quantum Vision Challenge at South Carolina Quantathon which was hosted by the Darla Moore School of Business at the University of South Carolina. The objectivre of this project was to devise a quantum layer within a hybrid quantum-classical neural network that is designed to differentiate between the digits 0 and 1. The quantum layer in this architecture is expected to perform a different role compared to the traditional quantum-classical neural network where the training is done using a lot of the classical layers with just one or two quantum layers involved in the training process. The quantum layer here is expected to conduct most of the training on the data set. Below are figures to display the different sections of the architecture.
+This project was conducted as part of the IonQ Quantum Vision Challenge at South Carolina Quantathon which was hosted by the Darla Moore School of Business at the University of South Carolina. The objectivre of this project was to devise a quantum layer within a neural network that is designed to differentiate between the digits 0 and 1. The quantum layer in this architecture is expected to perform a different role compared to the traditional hybrid quantum-classical neural network where the training is done using a lot of the classical layers with just one or two quantum layers involved in the training process. The quantum layer here is expected to conduct most of the training on the data set. Below are figures to display the different sections of the architecture.
 
 ![Pre-processing](images/convolution.png)
 
@@ -27,7 +27,11 @@ The methodology was to develop a quantum layer that can act as a component withi
 
 ![First Attempt](images/qcnn_z_feature_map.png)
 
-After struggling to get a stabilized result with the algorithm above, it was crucial to explore simpler methods. Moreover, the algorithm above took a long period to train (about 200 seconds per epoch). As this project was part of a 24-hour hackathon, results needed to be obtained immediately so they can be used to improve the model. Hence, simplicity was very essential. Two propositions were made for improving the model. The first one focused on using the HQNN layer that A Senokosov et. al used in their [paper](https://arxiv.org/abs/2304.09224) that came out in 2024. Below are two images highlighting the first method.
+After struggling to get a stabilized result with the algorithm above, it was crucial to explore simpler methods. Moreover, the algorithm above took a long period to train (about 200 seconds per epoch). As this project was part of a 24-hour hackathon, results needed to be obtained immediately so they can be used to improve the model. Hence, simplicity was very essential. 
+
+#### HQNN
+
+Two propositions were made for improving the model. The first one focused on using the HQNN layer that A Senokosov et. al used in their [paper](https://arxiv.org/abs/2304.09224) that came out in 2024. Below are two images highlighting the first method.
 
 ![HQNN](images/QuantumNet.png)
 
@@ -37,15 +41,23 @@ Above is an image of what the HQNN architecture would look like
 
 Here is an image of HQNN being rendered via Qiskit
 
+#### Z-Feature Map + TwoLocal
+
 The second idea was to utilize a simplistic variational algorithm that can be easily tweaked while producing quick immediate results. Below is an image of this quantum circuit layout. This quantum circuit utilizes a ZFeatureMap for its data encoding process and a Two Local Quantum Circuit for its ansatz.
 
 ![VQA_4_qubits](images/z_feature_map_two_local_4.png)
+
+![VQA_4_qubits_z_feature_map](images/z_feature_map_4.png)
+
+![VQA_4_qubits_two_local](images/two_local_4.png)
 
 ## Solution
 
 The method that yielded the better result was the combination of the ZFeatureMap and TwoLocal. However, there was an opportunity to experiment and see if an even smaller version can yield remarkable results. Hence, the number of qubits was reduced from 4 to 2. 
 
 ![VQA 2 qubits](images/z_feature_map_two_local.png)
+
+
 
 ## Results
 
