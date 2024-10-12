@@ -78,3 +78,5 @@ This was a great project to dive deep into the intricacies of building a quantum
 - IBM Quantum. (n.d.). ZFeatureMap. IBM Quantum Documentation. Retrieved October 12, 2024, from https://docs.quantum.ibm.com/api/qiskit/qiskit.circuit.library.ZFeatureMap
 - IBM Quantum. (n.d.). TwoLocal. IBM Quantum Documentation. Retrieved October 12, 2024, from https://docs.quantum.ibm.com/api/qiskit/qiskit.circuit.library.TwoLocal
 
+## Presentation
+- Link to presentation: ![here](presentation/QuantumNet.pdf)
