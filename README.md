@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project was conducted as part of the IonQ Quantum Vision Challenge at South Carolina Quantathon which was hosted by the Darla Moore School of Business at the University of South Carolina. The objectivre of this project was to devise a quantum layer within a neural network that is designed to differentiate between the digits 0 and 1. The quantum layer in this architecture is expected to perform a different role compared to the traditional hybrid quantum-classical neural network where the training is done using a lot of the classical layers with just one or two quantum layers involved in the training process. The quantum layer here is expected to conduct most of the training on the data set. Below are figures to display the different sections of the architecture.
+This project was conducted as part of the IonQ Quantum Vision Challenge at South Carolina Quantathon which was hosted by the Darla Moore School of Business at the University of South Carolina. The objectivre of this project was to devise a quantum layer within a machine learning algorithm that is designed to differentiate between the digits 0 and 1. The quantum layer in this architecture is expected to perform a different role compared to the traditional hybrid quantum-classical neural network where the training is done using a lot of the classical layers with just one or two quantum layers involved in the training process. The quantum layer here is expected to conduct most of the training on the data set. Below are figures to display the different sections of the architecture.
 
 ![Pre-processing](images/convolution.png)
 
@@ -23,7 +23,7 @@ With the emergence of Quantum Computing and its potential to tackle complex comp
 
 ## Methodology
 
-The methodology was to develop a quantum layer that can act as a component within the neural network. Our objective was three-fold: simplicity, training speed and reproduciboility. This quantum layer will be simple while being able to yield reproducible results and train data within a reasonable period of time. Therefore, we began by transforming the initial circuit into a simpler circuit by replacing the Angle Encoder with the ZFeatureMap, a simpler data encoding mechanism. We also used a new method for convolution by drawing inspiration from Qiskit's [tutorial](https://qiskit-community.github.io/qiskit-machine-learning/tutorials/11_quantum_convolutional_neural_networks.html) on Quantum Convolution Neural Network.
+The methodology was to develop a quantum layer that can act as a component within the algorithm. Our objective was three-fold: simplicity, training speed and reproduciboility. This quantum layer will be simple while being able to yield reproducible results and train data within a reasonable period of time. Therefore, we began by transforming the initial circuit into a simpler circuit by replacing the Angle Encoder with the ZFeatureMap, a simpler data encoding mechanism. We also used a new method for convolution by drawing inspiration from Qiskit's [tutorial](https://qiskit-community.github.io/qiskit-machine-learning/tutorials/11_quantum_convolutional_neural_networks.html) on Quantum Convolution Neural Network.
 
 ![First Attempt](images/qcnn_z_feature_map.png)
 
