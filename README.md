@@ -1,4 +1,6 @@
 # Simple Block - Zero Or One Image Digit Classification (South Carolina Quantathon Competition)
+![python](https://img.shields.io/badge/Python-3.9.0%2B-blue)
+![logo](images/simple_block.png)
 
 ## Introduction
 
