@@ -23,11 +23,11 @@ With the emergence of Quantum Computing and its potential to tackle complex comp
 
 ## Methodology
 
-The methodology was to develop a quantum layer that can act as a component within the neural network. Our objective was three-fold: simplicity, training speed and reproduciboility. This quantum layer will be simple while being able to yield reproducible results and training data within a reasonable period of time. Therefore, we began by transforming the initial circuit into a simpler circuit by replacing the Angle Encoder with the ZFeatureMap, a simpler data encoding mechanism. We also used a new method for convolution by drawing inspiration from Qiskit's [tutorial](https://qiskit-community.github.io/qiskit-machine-learning/tutorials/11_quantum_convolutional_neural_networks.html) on Quantum Convolution Neural Network.
+The methodology was to develop a quantum layer that can act as a component within the neural network. Our objective was three-fold: simplicity, training speed and reproduciboility. This quantum layer will be simple while being able to yield reproducible results and train data within a reasonable period of time. Therefore, we began by transforming the initial circuit into a simpler circuit by replacing the Angle Encoder with the ZFeatureMap, a simpler data encoding mechanism. We also used a new method for convolution by drawing inspiration from Qiskit's [tutorial](https://qiskit-community.github.io/qiskit-machine-learning/tutorials/11_quantum_convolutional_neural_networks.html) on Quantum Convolution Neural Network.
 
 ![First Attempt](images/qcnn_z_feature_map.png)
 
-After struggling to get a stabilized result with the algorithm above, it was crucial to explore simpler methods. Moreover, the algorithm above took a long period to train (about 200 seconds per epoch). As this project was part of a 24-hour hackathon, results needed to be obtained immediately so they can be used to improve the model. Hence, simplicity was very essential. 
+After struggling to get a stabilized result with the algorithm above, it was crucial to explore simpler methods as a complex algorithm is also harder to tweak. Moreover, the algorithm above took a long period to train (about 200 seconds per epoch). As this project was part of a 24-hour hackathon, results needed to be obtained immediately so they can be used to improve the model. Hence, simplicity was very essential. 
 
 #### HQNN
 
