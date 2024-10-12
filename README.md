@@ -4,12 +4,12 @@
 
 This project was conducted as part of the IonQ Quantum Vision Challenge at South Carolina Quantathon which was hosted by the Darla Moore School of Business at the University of South Carolina. The objectivre of this project was to devise a quantum layer within a neural network that is designed to differentiate between the digits 0 and 1. The quantum layer in this architecture is expected to perform a different role compared to the traditional hybrid quantum-classical neural network where the training is done using a lot of the classical layers with just one or two quantum layers involved in the training process. The quantum layer here is expected to conduct most of the training on the data set. Below are figures to display the different sections of the architecture.
 
-![Pre-processing](images/convolution.png "Pre-processing layer")
+![Pre-processing](images/convolution.png)
 
 
 The image above showcases the pre-processing step of the algorithm. This aspect focuses on flattening the image into 784 vector while using PCA to reduce its size to 168 dimensions before being fed into the quantum layer.
 
-![Quantum Layer](images/quantum_layer.png "Quantum layer")
+![Quantum Layer](images/quantum_layer.png)
 
 The quantum layer is the section of the algorithm where all the training is going to take place. The scope of this project is to define an effective quantum layer that can yield meaningful reproducible results while training on a small set of data.
 
@@ -47,7 +47,11 @@ The second idea was to utilize a simplistic variational algorithm that can be ea
 
 ![VQA_4_qubits](images/z_feature_map_two_local_4.png)
 
+The Z-Feature Map:
+
 ![VQA_4_qubits_z_feature_map](images/z_feature_map_4.png)
+
+The TwoLocal Ansatz: 
 
 ![VQA_4_qubits_two_local](images/two_local_4.png)
 
@@ -57,8 +61,6 @@ The method that yielded the better result was the combination of the ZFeatureMap
 
 ![VQA 2 qubits](images/z_feature_map_two_local.png)
 
-
-
 ## Results
 
 ![Tabular Results](images/results.png)
@@ -67,7 +69,7 @@ The results above indicate that the ZFeatureMap and TwoLocal combo provided a be
 
 ## Conclusion
 
-This was a great project to dive deep into the intricacies of building a quantum algorithm that can act as a model for training data. Since quantum computers leverage principles such as superposition, interference and entanglement, they have the capacity to solve complex problems that some classical systems struggle with. Therefore, looking into quantum machine learning as a possible way for developing the new generation of machine learning algorithms is an experimental initiative to test the limits of quantum computing in the real world. 
+This was a great project to dive deep into the intricacies of building a quantum algorithm that can act as a model for training data. Since quantum computers leverage principles such as superposition, interference and entanglement, they have the capacity to solve complex problems that some classical systems struggle with. Therefore, looking into quantum machine learning as a possible way for developing the new generation of machine learning algorithms is an experimental initiative to test the limits of quantum computing in the real world, and know how it can 
 
 ## References
 
