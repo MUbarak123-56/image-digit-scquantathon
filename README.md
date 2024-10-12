@@ -1,5 +1,5 @@
-# Simple Block - Zero Or One Image Digit Classification (South Carolina Quantathon Competition)
 ![python](https://img.shields.io/badge/Python-3.9.0%2B-blue)
+# Simple Block - Zero Or One Image Digit Classification (South Carolina Quantathon Competition)
 <img src = "images/simple_block.png" width = 150 height = 150/>
 
 ## Introduction
