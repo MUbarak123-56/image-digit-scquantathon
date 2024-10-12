@@ -31,7 +31,7 @@ After struggling to get a stabilized result with the algorithm above, it was cru
 
 #### HQNN
 
-Two propositions were made for improving the model. The first one focused on using the HQNN layer that A Senokosov et. al used in their [paper](https://arxiv.org/abs/2304.09224) that came out in 2024. Below are two images highlighting the first method.
+Two propositions were made for improving the model. The first one focused on using the HQNN layer that A Senokosov et. al used as a building block within their hybrid quantum-classical neural network in their [paper](https://arxiv.org/abs/2304.09224) that came out in 2024. Below are two images highlighting the first method.
 
 ![HQNN](images/QuantumNet.png)
 
