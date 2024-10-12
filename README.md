@@ -9,7 +9,7 @@ This project was conducted as part of the IonQ Quantum Vision Challenge at South
 ![Pre-processing](images/convolution.png)
 
 
-The image above showcases the pre-processing step of the algorithm. This aspect focuses on flattening the image into 784 vector while using PCA to reduce its size to 168 dimensions before being fed into the quantum layer.
+The image above showcases the pre-processing step of the algorithm. This aspect focuses on flattening the image into 784 vector while using PCA to reduce its size to 12 dimensions before being fed into the quantum layer.
 
 ![Quantum Layer](images/quantum_layer.png)
 
@@ -25,7 +25,7 @@ With the emergence of Quantum Computing and its potential to tackle complex comp
 
 ## Methodology
 
-The methodology was to develop a quantum layer that can act as a component within the algorithm. Our objective was three-fold: simplicity, training speed and reproduciboility. This quantum layer will be simple while being able to yield reproducible results and train data within a reasonable period of time. Therefore, we began by transforming the initial circuit into a simpler circuit by replacing the Angle Encoder with the ZFeatureMap, a simpler data encoding mechanism. We also used a new method for convolution by drawing inspiration from Qiskit's [tutorial](https://qiskit-community.github.io/qiskit-machine-learning/tutorials/11_quantum_convolutional_neural_networks.html) on Quantum Convolution Neural Network.
+The methodology was to develop a quantum layer that can act as a component within the algorithm. Our objective was three-fold: simplicity, training speed and reproducibility. This quantum layer will be simple while being able to yield reproducible results and train data within a reasonable period of time. Therefore, we began by transforming the initial circuit into a simpler circuit by replacing the Angle Encoder with the ZFeatureMap, a simpler data encoding mechanism. We also used a new method for convolution by drawing inspiration from Qiskit's [tutorial](https://qiskit-community.github.io/qiskit-machine-learning/tutorials/11_quantum_convolutional_neural_networks.html) on Quantum Convolution Neural Network.
 
 ![First Attempt](images/qcnn_z_feature_map.png)
 
