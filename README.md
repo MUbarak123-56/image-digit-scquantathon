@@ -65,11 +65,11 @@ The method that yielded the better result was the combination of the ZFeatureMap
 
 ![Tabular Results](images/results.png)
 
-The results above indicate that the ZFeatureMap and TwoLocal combo provided a better result. Although the HQNN is simpler, it is not complex enough to act as a building block. The ZFeatureMap-TwoLocal combo definitely strikes a balance between simplicity and complexity as a more complex algorithm such as a QConv might occassionally provide higher accuracy but it was too complex to tweak and upgrade. The ZFeatureMap-TwoLocal combo also provided consistently good results on the leaderboard. It produced 62% twice and a score of 65% once.
+The results above indicate that the ZFeatureMap and TwoLocal combo provided a better result. Although the HQNN is simpler, it is not complex enough to act as a building block. The ZFeatureMap-TwoLocal combo definitely strikes a balance between simplicity and complexity as a more complex algorithm such as a QConv might occassionally provide higher accuracy but it was too complex to tweak and upgrade. The ZFeatureMap-TwoLocal combo also provided consistently good results on the leaderboard. It produced 62% twice and a score of **65%** once.
 
 ## Conclusion
 
-This was a great project to dive deep into the intricacies of building a quantum algorithm that can act as a model for training data. Since quantum computers leverage principles such as superposition, interference and entanglement, they have the capacity to solve complex problems that some classical systems struggle with. Therefore, looking into quantum machine learning as a possible way for developing the new generation of machine learning algorithms is an experimental initiative to test the limits of quantum computing in the real world, and know how it can 
+This was a great project to dive deep into the intricacies of building a quantum algorithm that can act as a model for training data while witnessing certain machine learning concepts such as hyper-parameter tuning and bias-variance tradeoff. Since quantum computers leverage principles such as superposition, interference and entanglement, they have the capacity to solve complex problems that some classical systems struggle with. Therefore, looking into quantum machine learning as a possible way for developing the new generation of machine learning algorithms is an experimental initiative to test the limits of quantum computing in the real world, and know how it can possibly enhance the domain of machine learning. 
 
 ## References
 
