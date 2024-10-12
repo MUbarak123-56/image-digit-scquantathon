@@ -82,4 +82,4 @@ This was a great project to dive deep into the intricacies of building a quantum
 ## Presentation
 - Link to presentation: [here](presentation/QuantumNet.pdf)
 
-  ![logo](images/simple_block.png)
+<img src = "images/simple_block.png" width = 150 height = 150/>
