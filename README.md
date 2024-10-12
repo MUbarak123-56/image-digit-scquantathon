@@ -1,5 +1,6 @@
 # Simple Block - Zero Or One Image Digit Classification (South Carolina Quantathon Competition)
 ![python](https://img.shields.io/badge/Python-3.9.0%2B-blue)
+<img src = "images/simple_block.png" width = 150 height = 150/>
 
 ## Introduction
 
@@ -82,4 +83,4 @@ This was a great project to dive deep into the intricacies of building a quantum
 ## Presentation
 - Link to presentation: [here](presentation/QuantumNet.pdf)
 
-<img src = "images/simple_block.png" width = 150 height = 150/>
+
