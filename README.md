@@ -9,7 +9,7 @@ This project was conducted as part of the IonQ Quantum Vision Challenge at South
 ![Pre-processing](images/convolution.png)
 
 
-The image above showcases the pre-processing step of the algorithm. This aspect focuses on flattening the image into 784 vector while using PCA to reduce its size to 12 dimensions before being fed into the quantum layer.
+The image above showcases the pre-processing step of the algorithm. This aspect focuses on flattening the image into 784 vector while reducing its size to 168 dimensions before being fed into the quantum layer.
 
 ![Quantum Layer](images/quantum_layer.png)
 
